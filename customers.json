@@ -1,0 +1,123 @@
+{
+	"customers": [
+	  {
+		"userId": "1",
+		"firstName": "Rushda",
+		"lastName": "Vahora",
+		"region": "New Jersey",
+		"phoneNumber": "1234567890",
+		"emailAddress": "rushdavahora@icloud.com",
+		"shippingAddress": "32 Minebrook rd, Edison, NJ, 08820",
+		"orders": [
+		  {
+			"orderId": "123",
+			"currency": "USD",
+			"subtotal": 35.98,
+			"discountAmount": 0,
+			"taxAmount": 0,
+			"grandTotal": 35.98,
+			"lineItems": [
+			  {
+				"sku": "576879",
+				"name": "Shirt",
+				"description": "A super great description of the product.",
+				"category": "Shirts > T-Shirts > Blue",
+				"unitPrice": 11.99,
+				"salePrice": 11.99,
+				"quantity": 1,
+				"totalPrice": 23.98
+			  },
+			  {
+				"sku": "1112296",
+				"name": "Fleece Jacket",
+				"description": "A well pointed Fleece jacket.",
+				"category": "Jackets > Winter > Fleece",
+				"unitPrice": 65.99,
+				"salePrice": 55.5,
+				"quantity": 1,
+				"totalPrice": 12
+			  }
+			]
+		  },
+		  {
+			"orderId": "124",
+			"currency": "USD",
+			"subtotal": 11.99,
+			"discountAmount": 0.99,
+			"taxAmount": 0,
+			"grandTotal": 11.99,
+			"lineItems": [
+			  {
+				"sku": "576880",
+				"name": "Shirt",
+				"description": "A super great description of the product.",
+				"category": "Shirts > White",
+				"unitPrice": 11.99,
+				"salePrice": 11.99,
+				"quantity": 1,
+				"totalPrice": 23.98
+			  }
+			]
+		  },
+		  {
+			"orderId": "125",
+			"currency": "USD",
+			"subtotal": 58.01,
+			"discountAmount": 0,
+			"taxAmount": 0,
+			"grandTotal": 58.01,
+			"lineItems": [
+			  {
+				"sku": "93782101",
+				"name": "Poly Fleece",
+				"description": "A super great description of the product.",
+				"category": "Jackets > Winter > Fleece",
+				"unitPrice": 17.99,
+				"salePrice": 17.99,
+				"quantity": 1,
+				"totalPrice": 20.05
+			  },
+			  {
+				"sku": "93831749",
+				"name": "Logo Beanie",
+				"description": "A Red Beanie.",
+				"category": "Accessory > Cap > Beanie",
+				"unitPrice": 65.99,
+				"salePrice": 55.5,
+				"quantity": 1,
+				"totalPrice": 8
+			  },
+			  {
+				"sku": "92033407",
+				"name": "Camo Hoodie",
+				"description": "A super great description of the product.",
+				"category": "Jackets > Hoodie > White",
+				"unitPrice": 59.95,
+				"salePrice": 29.98,
+				"quantity": 1,
+				"totalPrice": 30.05
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"userId": "2",
+		"firstName": "Amir",
+		"lastName": "Vahora",
+		"region": "California",
+		"phoneNumber": "0987654142",
+		"emailAddress": "amirvahora@icloud.com",
+		"shippingAddress": "32 Minebrook rd, Edison, NJ, 08820"
+	  },
+	  {
+		"userId": "3",
+		"firstName": "Imran",
+		"lastName": "Vahora",
+		"region": "Nevada",
+		"phoneNumber": "6747362433",
+		"emailAddress": "imranvahora@icloud.com",
+		"shippingAddress": "32 Minebrook rd, Edison, NJ, 08820"
+	  }
+	]
+  }
